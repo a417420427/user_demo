@@ -76,9 +76,18 @@ const findUser = ({username='', id=''}) =>  Users.findAll({
     }
 })
 
+const verifyUser = ({username, password}) => Users.findAll({
+    where: {
+        [Op.and] : [
+            {username},
+            {password}
+        ]
+    }
+})
 
 module.exports = {
     createPost,
     createUser,
-    findUser
+    findUser,
+    verifyUser
 }
