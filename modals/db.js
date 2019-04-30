@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const connect = new Sequelize('users', 'root', '12345678', {
+const connect = new Sequelize('users', 'root', '123456', {
     host: 'localhost',
     dialect: 'mysql',
     pool: {

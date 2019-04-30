@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "koa-cors": "^0.0.16",
+    "koa-mysql-session": "^0.0.2",
     "koa-router": "^7.4.0",
     "koa-session": "^5.10.1",
     "mysql2": "^1.6.5",
@@ -9,7 +10,10 @@
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "koa": "^2.7.0",
-    "koa-bodyparser": "^4.2.1"
+    "koa-bodyparser": "^4.2.1",
+    "koa-session-minimal": "^3.0.4"
   }
 }
